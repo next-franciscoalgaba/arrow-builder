@@ -2,7 +2,7 @@
 ARG PYTHON_VERSION=3.6
 
 # From Official Python Image
-FROM python:${PYTHON_VERSION}-slim-buster AS arrow-builder
+FROM python:${PYTHON_VERSION}-slim-buster
 
 # Set versions
 ARG ARROW_VERSION=0.15.0
